@@ -3291,6 +3291,10 @@
         "tooltip-description": "Cari mode senyap berdasarkan pencocok. Mencocokkan nama label, nilai, dan operator dengan tepat.",
         "tooltip-example": "Contoh: <1>env=~\"prod.*\"</1> menemukan mode senyap dengan pencocok <4>env=~\"prod.*\"</4>."
       },
+      "missing-alert-rule-warning": {
+        "text": "",
+        "tooltip": ""
+      },
       "only-firing-instances": "Hanya instans peringatan dalam keadaan menyala yang ditampilkan.",
       "operator": {
         "equals": "Sama dengan",
@@ -5468,9 +5472,6 @@
     "dashboard-links-menu": {
       "aria-label-dashboard-name": "dasbor {{dashboardName}}",
       "label-no-dashboards-found": "Tidak ada dasbor yang ditemukan"
-    },
-    "dashboard-loading": {
-      "cancel-loading-dashboard": "Batalkan memuat dasbor"
     },
     "dashboard-page-error": {
       "back-to-dashboards": "",
@@ -13524,6 +13525,9 @@
       "request-failed": "Permintaan gagal",
       "resource-not-found": "Sumber daya tidak ditemukan. Silakan periksa URL atau repositori."
     },
+    "import": {
+      "error": ""
+    },
     "instance-sync-deprecation": {
       "message": "Sinkronisasi instance saat ini tidak sepenuhnya didukung dan memutus panel pustaka dan peringatan. Untuk menggunakan panel dan peringatan pustaka, putuskan koneksi repositori Anda dan hubungkan kembali menggunakan sinkronisasi folder.",
       "title": "Sinkronisasi instance tidak sepenuhnya didukung"
@@ -13802,7 +13806,8 @@
     "sync-job": {
       "error-no-job-id": "Gagal memulai pekerjaan",
       "error-no-repository-name": "Tidak ada nama repositori yang disediakan",
-      "error-starting-job": "Kesalahan saat memulai pekerjaan"
+      "error-starting-job": "Kesalahan saat memulai pekerjaan",
+      "migrate-default-message": ""
     },
     "sync-repository": {
       "error-pulling-resources": "Kesalahan saat melakukan pull pada sumber daya",

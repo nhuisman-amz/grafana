@@ -3291,6 +3291,10 @@
         "tooltip-description": "按匹配器查找静默。精确匹配标签名称、值和运算符。",
         "tooltip-example": "示例：<1>env=~\"prod.*\"</1> 使用匹配器 <4>env=~\"prod.*\"</4> 查找静默。"
       },
+      "missing-alert-rule-warning": {
+        "text": "",
+        "tooltip": ""
+      },
       "only-firing-instances": "仅显示处于触发状态的提醒实例。",
       "operator": {
         "equals": "等于",
@@ -5468,9 +5472,6 @@
     "dashboard-links-menu": {
       "aria-label-dashboard-name": "{{dashboardName}} 数据面板",
       "label-no-dashboards-found": "未找到数据面板"
-    },
-    "dashboard-loading": {
-      "cancel-loading-dashboard": "取消加载数据面板"
     },
     "dashboard-page-error": {
       "back-to-dashboards": "",
@@ -13524,6 +13525,9 @@
       "request-failed": "",
       "resource-not-found": ""
     },
+    "import": {
+      "error": ""
+    },
     "instance-sync-deprecation": {
       "message": "实例同步目前尚未得到完全支持，并且会导致库面板和警报功能异常。要使用库面板和警报功能，请断开存储库的连接，然后使用文件夹同步重新连接。",
       "title": "不完全支持实例同步"
@@ -13802,7 +13806,8 @@
     "sync-job": {
       "error-no-job-id": "启动作业失败",
       "error-no-repository-name": "未提供存储库名称",
-      "error-starting-job": "启动作业时出错"
+      "error-starting-job": "启动作业时出错",
+      "migrate-default-message": ""
     },
     "sync-repository": {
       "error-pulling-resources": "拉取资源时出错",

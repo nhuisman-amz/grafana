@@ -3312,6 +3312,10 @@
         "tooltip-description": "Stiltes zoeken op matcher. Komt exact overeen met labelnaam, waarde en operator.",
         "tooltip-example": "Voorbeeld: <1>env=~\"prod.*\"</1> vindt stiltes met een matcher <4>env=~\"prod.*\"</4>."
       },
+      "missing-alert-rule-warning": {
+        "text": "",
+        "tooltip": ""
+      },
       "only-firing-instances": "Alleen waarschuwingsinstanties in de actieve status worden weergegeven.",
       "operator": {
         "equals": "Gelijk aan",
@@ -5500,9 +5504,6 @@
     "dashboard-links-menu": {
       "aria-label-dashboard-name": "Dashboard {{dashboardName}}",
       "label-no-dashboards-found": "Geen dashboards gevonden"
-    },
-    "dashboard-loading": {
-      "cancel-loading-dashboard": "Laden van het dashboard annuleren"
     },
     "dashboard-page-error": {
       "back-to-dashboards": "",
@@ -13601,6 +13602,9 @@
       "request-failed": "",
       "resource-not-found": ""
     },
+    "import": {
+      "error": ""
+    },
     "instance-sync-deprecation": {
       "message": "Instancesynchronisatie wordt momenteel niet volledig ondersteund en verbreekt bibliotheekpanelen en waarschuwingen. Om bibliotheekpanelen en waarschuwingen te gebruiken, koppelt je je repository los en sluit je deze opnieuw aan met behulp van mapsynchronisatie.",
       "title": "Instantiesynchronisatie wordt niet volledig ondersteund"
@@ -13887,7 +13891,8 @@
     "sync-job": {
       "error-no-job-id": "Kan taak niet starten",
       "error-no-repository-name": "Geen repository-naam opgegeven",
-      "error-starting-job": "Er is een fout opgetreden bij het starten van de taak"
+      "error-starting-job": "Er is een fout opgetreden bij het starten van de taak",
+      "migrate-default-message": ""
     },
     "sync-repository": {
       "error-pulling-resources": "Er is een fout opgetreden bij het ophalen van de bronnen",

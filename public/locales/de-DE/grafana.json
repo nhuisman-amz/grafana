@@ -3312,6 +3312,10 @@
         "tooltip-description": "Stummschaltungen nach Matcher suchen. Führt eine exakte Übereinstimmung mit Label-Name, -Wert und -Operator durch.",
         "tooltip-example": "Beispiel: <1>env=~\"prod.*\"</1> findet Stummschaltungen mit dem Matcher <4>env=~\"prod.*\"</4>."
       },
+      "missing-alert-rule-warning": {
+        "text": "",
+        "tooltip": ""
+      },
       "only-firing-instances": "Es werden nur Warninstanzen im Auslösezustand angezeigt.",
       "operator": {
         "equals": "Gleich",
@@ -5500,9 +5504,6 @@
     "dashboard-links-menu": {
       "aria-label-dashboard-name": "{{dashboardName}} Dashboard",
       "label-no-dashboards-found": "Keine Dashboards gefunden"
-    },
-    "dashboard-loading": {
-      "cancel-loading-dashboard": "Laden des Dashboards abbrechen"
     },
     "dashboard-page-error": {
       "back-to-dashboards": "",
@@ -13601,6 +13602,9 @@
       "request-failed": "",
       "resource-not-found": ""
     },
+    "import": {
+      "error": ""
+    },
     "instance-sync-deprecation": {
       "message": "Die Instanzensynchronisierung wird zurzeit nicht vollständig unterstützt und unterbricht Bibliotheks-Panels und Warnungen. Um Bibliotheks-Panels und Warnungen zu nutzen, trennen Sie Ihr Repository und verbinden Sie es stattdessen erneut mithilfe der Ordnersynchronisierung.",
       "title": "Die Instanzensynchronisierung wird nicht vollständig unterstützt"
@@ -13887,7 +13891,8 @@
     "sync-job": {
       "error-no-job-id": "Auftrag konnte nicht gestartet werden",
       "error-no-repository-name": "Kein Repository-Name angegeben",
-      "error-starting-job": "Fehler beim Starten des Auftrags"
+      "error-starting-job": "Fehler beim Starten des Auftrags",
+      "migrate-default-message": ""
     },
     "sync-repository": {
       "error-pulling-resources": "Fehler beim Abrufen von Ressourcen",

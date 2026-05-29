@@ -3312,6 +3312,10 @@
         "tooltip-description": "Sessize almaları eşleştiriciye göre bulun. Etiket adını, değerini ve işleci tam olarak eşleştirir.",
         "tooltip-example": "Örnek: <1>env=~\"prod.*\"</1>, <4>env=~\"prod.*\"</4> eşleştiricisine sahip sessize almaları bulur."
       },
+      "missing-alert-rule-warning": {
+        "text": "",
+        "tooltip": ""
+      },
       "only-firing-instances": "Yalnızca tetikleme durumundaki uyarı örnekleri görüntülenir.",
       "operator": {
         "equals": "Eşittir",
@@ -5500,9 +5504,6 @@
     "dashboard-links-menu": {
       "aria-label-dashboard-name": "{{dashboardName}} panosu",
       "label-no-dashboards-found": "Hiç pano bulunamadı"
-    },
-    "dashboard-loading": {
-      "cancel-loading-dashboard": "Pano yüklemesini iptal et"
     },
     "dashboard-page-error": {
       "back-to-dashboards": "",
@@ -13601,6 +13602,9 @@
       "request-failed": "İstek başarısız oldu",
       "resource-not-found": "Kaynak bulunamadı. Lütfen URL'yi veya depoyu kontrol edin."
     },
+    "import": {
+      "error": ""
+    },
     "instance-sync-deprecation": {
       "message": "Örnek senkronizasyonu şu anda tam olarak desteklenmiyor ve kitaplık panoları ile uyarıları bozabilir. Kitaplık panolarını ve uyarıları kullanmak için deponuzun bağlantısını kesin ve klasör senkronizasyonuyla yeniden bağlayın.",
       "title": "Örnek senkronizasyonu tam olarak desteklenmiyor"
@@ -13887,7 +13891,8 @@
     "sync-job": {
       "error-no-job-id": "İş başlatılamadı",
       "error-no-repository-name": "Depo adı sağlanmadı",
-      "error-starting-job": "İş başlatılırken hata oluştu"
+      "error-starting-job": "İş başlatılırken hata oluştu",
+      "migrate-default-message": ""
     },
     "sync-repository": {
       "error-pulling-resources": "Kaynaklar çekilirken hata oluştu",

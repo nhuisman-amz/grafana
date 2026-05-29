@@ -3312,6 +3312,10 @@
         "tooltip-description": "Hitta tystnader efter matchare. Matchar etikettnamn, värde och operator exakt.",
         "tooltip-example": "Exempel: <1>env=~”prod.*”</1> hittar tystnader med matchningsverktyget <4>env=~”prod.*”</4>."
       },
+      "missing-alert-rule-warning": {
+        "text": "",
+        "tooltip": ""
+      },
       "only-firing-instances": "Endast varningsinstanser i aktiveringstillståndet visas.",
       "operator": {
         "equals": "Är lika med",
@@ -5500,9 +5504,6 @@
     "dashboard-links-menu": {
       "aria-label-dashboard-name": "{{dashboardName}} instrumentpanel",
       "label-no-dashboards-found": "Inga instrumentpaneler hittades"
-    },
-    "dashboard-loading": {
-      "cancel-loading-dashboard": "Avbryt laddning av instrumentpanel"
     },
     "dashboard-page-error": {
       "back-to-dashboards": "",
@@ -13601,6 +13602,9 @@
       "request-failed": "",
       "resource-not-found": ""
     },
+    "import": {
+      "error": ""
+    },
     "instance-sync-deprecation": {
       "message": "Instanssynkronisering stöds för närvarande inte fullt ut och bryter bibliotekspaneler och varningar. För att använda bibliotekspaneler och larm behöver du koppla från lagringsplatsen och sedan ansluta den på nytt med mappsynkronisering.",
       "title": "Instanssynkronisering stöds inte helt"
@@ -13887,7 +13891,8 @@
     "sync-job": {
       "error-no-job-id": "Misslyckades att starta",
       "error-no-repository-name": "Inget lagringsplatsnamn angivet",
-      "error-starting-job": "Fel vid start av jobb"
+      "error-starting-job": "Fel vid start av jobb",
+      "migrate-default-message": ""
     },
     "sync-repository": {
       "error-pulling-resources": "Fel vid hämtning av resurser",

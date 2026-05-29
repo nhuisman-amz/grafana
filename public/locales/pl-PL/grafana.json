@@ -3354,6 +3354,10 @@
         "tooltip-description": "Znajdź okresy wyciszenia według kryterium dopasowania. Jest to dopasowywanie dokładne na podstawie nazwy etykiety, wartości i operatora.",
         "tooltip-example": "Przykład: <1>env=~\"prod.*\"</1> wyszukuje okresy wyciszenia za pomocą reguły dopasowania <4>env=~\"prod.*\"</4>."
       },
+      "missing-alert-rule-warning": {
+        "text": "",
+        "tooltip": ""
+      },
       "only-firing-instances": "Wyświetlane są tylko uruchomione instancje alertów.",
       "operator": {
         "equals": "Równa się",
@@ -5564,9 +5568,6 @@
     "dashboard-links-menu": {
       "aria-label-dashboard-name": "Pulpit {{dashboardName}}",
       "label-no-dashboards-found": "Nie znaleziono pulpitów"
-    },
-    "dashboard-loading": {
-      "cancel-loading-dashboard": "Anuluj wczytywanie pulpitu"
     },
     "dashboard-page-error": {
       "back-to-dashboards": "",
@@ -13755,6 +13756,9 @@
       "request-failed": "",
       "resource-not-found": ""
     },
+    "import": {
+      "error": ""
+    },
     "instance-sync-deprecation": {
       "message": "Synchronizacja instancji nie jest obecnie w pełni obsługiwana i powoduje przerwanie działania paneli biblioteki i alertów. Aby korzystać z paneli biblioteki i alertów, odłącz repozytorium i podłącz je ponownie za pomocą synchronizacji folderów.",
       "title": "Synchronizacja instancji nie jest w pełni obsługiwana"
@@ -14057,7 +14061,8 @@
     "sync-job": {
       "error-no-job-id": "Nie udało się uruchomić zadania",
       "error-no-repository-name": "Nie wprowadzono nazwy repozytorium",
-      "error-starting-job": "Błąd uruchamiania zadania"
+      "error-starting-job": "Błąd uruchamiania zadania",
+      "migrate-default-message": ""
     },
     "sync-repository": {
       "error-pulling-resources": "Błąd pobierania zasobów",

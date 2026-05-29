@@ -3354,6 +3354,10 @@
         "tooltip-description": "Vyhledat potlačení podle odpovídající shody. Přesně odpovídá názvu štítku, hodnotě a operátoru.",
         "tooltip-example": "Příklad: <1>env=~\"prod.*\"</1> vyhledá potlačení pomocí nástroje pro hledání shod <4>env=~\"prod.*\"</4>."
       },
+      "missing-alert-rule-warning": {
+        "text": "",
+        "tooltip": ""
+      },
       "only-firing-instances": "Zobrazují se pouze instance výstrah v aktivním stavu.",
       "operator": {
         "equals": "Je rovno",
@@ -5564,9 +5568,6 @@
     "dashboard-links-menu": {
       "aria-label-dashboard-name": "Nástěnka {{dashboardName}}",
       "label-no-dashboards-found": "Nebyly nalezeny žádné nástěnky"
-    },
-    "dashboard-loading": {
-      "cancel-loading-dashboard": "Zrušit načítání nástěnky"
     },
     "dashboard-page-error": {
       "back-to-dashboards": "",
@@ -13755,6 +13756,9 @@
       "request-failed": "",
       "resource-not-found": ""
     },
+    "import": {
+      "error": ""
+    },
     "instance-sync-deprecation": {
       "message": "Synchronizace instancí není v současné době plně podporována a narušuje panely knihovny a výstrahy. Chcete-li používat panely knihovny a výstrahy, odpojte úložiště a znovu jej připojte pomocí synchronizace složek.",
       "title": "Synchronizace instancí není plně podporována"
@@ -14057,7 +14061,8 @@
     "sync-job": {
       "error-no-job-id": "Nepodařilo se spustit úlohu",
       "error-no-repository-name": "Nebyl zadán žádný název úložiště",
-      "error-starting-job": "Chyba při spouštění úlohy"
+      "error-starting-job": "Chyba při spouštění úlohy",
+      "migrate-default-message": ""
     },
     "sync-repository": {
       "error-pulling-resources": "Chyba při stahování zdrojů",

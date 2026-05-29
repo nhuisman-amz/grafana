@@ -3291,6 +3291,10 @@
         "tooltip-description": "依比對條件尋找靜默通知。精確比對標籤名稱、值和運算子。",
         "tooltip-example": "範例：<1>env=~\"prod.*\"</1> 使用比對條件 <4>env=~\"prod.*\"</4> 來尋找靜默通知。"
       },
+      "missing-alert-rule-warning": {
+        "text": "",
+        "tooltip": ""
+      },
       "only-firing-instances": "僅顯示處於觸發狀態的警報執行個體。",
       "operator": {
         "equals": "等於",
@@ -5468,9 +5472,6 @@
     "dashboard-links-menu": {
       "aria-label-dashboard-name": "「{{dashboardName}}」儀表板",
       "label-no-dashboards-found": "未找到儀表板"
-    },
-    "dashboard-loading": {
-      "cancel-loading-dashboard": "取消載入儀表板"
     },
     "dashboard-page-error": {
       "back-to-dashboards": "",
@@ -13524,6 +13525,9 @@
       "request-failed": "",
       "resource-not-found": ""
     },
+    "import": {
+      "error": ""
+    },
     "instance-sync-deprecation": {
       "message": "目前尚未完全支援執行個體同步，並會中斷資料庫面板和警示。若要使用資料庫面板和警示，請中斷連線儲存庫，並改用資料夾同步重新連線。",
       "title": "不完全支援執行個體同步"
@@ -13802,7 +13806,8 @@
     "sync-job": {
       "error-no-job-id": "無法啟動作業",
       "error-no-repository-name": "未提供儲存庫名稱",
-      "error-starting-job": "開始作業時發生錯誤"
+      "error-starting-job": "開始作業時發生錯誤",
+      "migrate-default-message": ""
     },
     "sync-repository": {
       "error-pulling-resources": "拉取資源時發生錯誤",

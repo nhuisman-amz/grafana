@@ -3312,6 +3312,10 @@
         "tooltip-description": "Permite buscar silencios mediante un comparador. Se puede hacer coincidir exactamente con el nombre de la etiqueta, el valor y el operador.",
         "tooltip-example": "Ejemplo: <1>env=~\"prod.*\"</1> busca silencios con un comparador <4>env=~\"prod.*\"</4>."
       },
+      "missing-alert-rule-warning": {
+        "text": "",
+        "tooltip": ""
+      },
       "only-firing-instances": "Solo se muestran las instancias de alerta en estado de activación.",
       "operator": {
         "equals": "Igual a",
@@ -5500,9 +5504,6 @@
     "dashboard-links-menu": {
       "aria-label-dashboard-name": "Dashboard {{dashboardName}}",
       "label-no-dashboards-found": "No se han encontrado dashboards"
-    },
-    "dashboard-loading": {
-      "cancel-loading-dashboard": "Cancelar la carga del dashboard"
     },
     "dashboard-page-error": {
       "back-to-dashboards": "",
@@ -13601,6 +13602,9 @@
       "request-failed": "",
       "resource-not-found": ""
     },
+    "import": {
+      "error": ""
+    },
     "instance-sync-deprecation": {
       "message": "La sincronización de instancias no es totalmente compatible actualmente y provoca errores en los paneles y las alertas. Para usar los paneles y las alertas de la librería, desconecta tu repositorio y vuelve a conectarlo utilizando la sincronización de carpetas.",
       "title": "La sincronización de instancias no es totalmente compatible"
@@ -13887,7 +13891,8 @@
     "sync-job": {
       "error-no-job-id": "Error al iniciar el trabajo",
       "error-no-repository-name": "No se proporcionó ningún nombre de repositorio",
-      "error-starting-job": "Error al iniciar el trabajo"
+      "error-starting-job": "Error al iniciar el trabajo",
+      "migrate-default-message": ""
     },
     "sync-repository": {
       "error-pulling-resources": "Error al extraer los recursos",

@@ -3312,6 +3312,10 @@
         "tooltip-description": "Rechercher des mises en sourdine par correspondance. Correspond exactement au nom de l’étiquette, à la valeur et à l’opérateur.",
         "tooltip-example": "Exemple : <1>env=~\"prod.*\"</1> recherche les mises en sourdine avec une correspondance <4>env=~\"prod.*\"</4>."
       },
+      "missing-alert-rule-warning": {
+        "text": "",
+        "tooltip": ""
+      },
       "only-firing-instances": "Seules les instances d'alerte en état de déclenchement sont affichées.",
       "operator": {
         "equals": "Égal à",
@@ -5500,9 +5504,6 @@
     "dashboard-links-menu": {
       "aria-label-dashboard-name": "Tableau de bord {{dashboardName}}",
       "label-no-dashboards-found": "Aucun tableau de bord trouvé"
-    },
-    "dashboard-loading": {
-      "cancel-loading-dashboard": "Annuler le chargement du tableau de bord"
     },
     "dashboard-page-error": {
       "back-to-dashboards": "",
@@ -13601,6 +13602,9 @@
       "request-failed": "",
       "resource-not-found": ""
     },
+    "import": {
+      "error": ""
+    },
     "instance-sync-deprecation": {
       "message": "La synchronisation de l’instance n’est actuellement pas entièrement prise en charge et perturbe les panneaux de bibliothèque et les alertes. Pour utiliser les panneaux de bibliothèque et les alertes, déconnectez votre référentiel puis reconnectez-le en utilisant la synchronisation par dossier.",
       "title": "La synchronisation de l’instance n’est pas entièrement prise en charge"
@@ -13887,7 +13891,8 @@
     "sync-job": {
       "error-no-job-id": "Échec du démarrage de la tâche",
       "error-no-repository-name": "Nom du dépôt non fourni",
-      "error-starting-job": "Erreur lors du démarrage de la tâche"
+      "error-starting-job": "Erreur lors du démarrage de la tâche",
+      "migrate-default-message": ""
     },
     "sync-repository": {
       "error-pulling-resources": "Erreur lors de la fusion des ressources",

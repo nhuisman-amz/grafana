@@ -3312,6 +3312,10 @@
         "tooltip-description": "Trova i silenziamenti per corrispondenza. Cerca corrispondenze esatte per nome dell'etichetta, valore e operatore.",
         "tooltip-example": "Esempio: <1>env=~\"prod.*\"</1> trova i silenziamenti con un criterio di corrispondenza <4>env=~\"prod.*\"</4>."
       },
+      "missing-alert-rule-warning": {
+        "text": "",
+        "tooltip": ""
+      },
       "only-firing-instances": "Vengono visualizzate solo le istanze di avviso in stato di attivazione.",
       "operator": {
         "equals": "Uguale",
@@ -5500,9 +5504,6 @@
     "dashboard-links-menu": {
       "aria-label-dashboard-name": "Dashboard {{dashboardName}}",
       "label-no-dashboards-found": "Nessuna dashboard trovata"
-    },
-    "dashboard-loading": {
-      "cancel-loading-dashboard": "Annulla caricamento della dashboard"
     },
     "dashboard-page-error": {
       "back-to-dashboards": "",
@@ -13601,6 +13602,9 @@
       "request-failed": "",
       "resource-not-found": ""
     },
+    "import": {
+      "error": ""
+    },
     "instance-sync-deprecation": {
       "message": "La sincronizzazione delle istanze non è attualmente supportata completamente e interrompe i pannelli e gli avvisi della libreria. Per utilizzare i pannelli della libreria e gli avvisi, disconnetti il repository e riconnettitilo utilizzando la sincronizzazione delle cartelle.",
       "title": "La sincronizzazione delle istanze non è completamente supportata"
@@ -13887,7 +13891,8 @@
     "sync-job": {
       "error-no-job-id": "Impossibile avviare l'attività",
       "error-no-repository-name": "Nessun nome di repository fornito",
-      "error-starting-job": "Errore durante l'avvio dell'attività"
+      "error-starting-job": "Errore durante l'avvio dell'attività",
+      "migrate-default-message": ""
     },
     "sync-repository": {
       "error-pulling-resources": "Errore durante il pull delle risorse",

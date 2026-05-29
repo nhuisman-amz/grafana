@@ -3354,6 +3354,10 @@
         "tooltip-description": "Поиск временных отключений по сопоставлению. Точное сопоставление имени метки, значения и оператора.",
         "tooltip-example": "Пример: <1>env=~\"prod.*\"</1> находит временные отключения с помощью сопоставления <4>env=~\"prod.*\"</4>."
       },
+      "missing-alert-rule-warning": {
+        "text": "",
+        "tooltip": ""
+      },
       "only-firing-instances": "Отображаются только экземпляры оповещения в состоянии отправки.",
       "operator": {
         "equals": "Равно",
@@ -5564,9 +5568,6 @@
     "dashboard-links-menu": {
       "aria-label-dashboard-name": "Дашборд {{dashboardName}}",
       "label-no-dashboards-found": "Дашборды не найдены"
-    },
-    "dashboard-loading": {
-      "cancel-loading-dashboard": "Отменить загрузку дашборда"
     },
     "dashboard-page-error": {
       "back-to-dashboards": "",
@@ -13755,6 +13756,9 @@
       "request-failed": "Запрос не выполнен",
       "resource-not-found": "Ресурс не найден. Проверьте URL-адрес или репозиторий."
     },
+    "import": {
+      "error": ""
+    },
     "instance-sync-deprecation": {
       "message": "Синхронизация экземпляров в настоящее время поддерживается не полностью. Она нарушает работу панелей библиотеки и оповещений. Чтобы их использовать, отключите репозиторий и повторно подключите его путем синхронизации папок.",
       "title": "Синхронизация экземпляров поддерживается не полностью"
@@ -14057,7 +14061,8 @@
     "sync-job": {
       "error-no-job-id": "Не удалось запустить задание",
       "error-no-repository-name": "Не указано имя репозитория",
-      "error-starting-job": "Ошибка при запуске задания"
+      "error-starting-job": "Ошибка при запуске задания",
+      "migrate-default-message": ""
     },
     "sync-repository": {
       "error-pulling-resources": "Ошибка при извлечении ресурсов",

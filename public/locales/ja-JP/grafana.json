@@ -3291,6 +3291,10 @@
         "tooltip-description": "マッチャーでサイレンスを検索します。ラベル名、値、および演算子が完全に一致します。",
         "tooltip-example": "例：<1>env=~\"prod.*\"</1>は、<4>env=~\"prod.*\"</4>というマッチャーを持つサイレンスを検出します。"
       },
+      "missing-alert-rule-warning": {
+        "text": "",
+        "tooltip": ""
+      },
       "only-firing-instances": "発生ステートのアラートインスタンスのみが表示されます。",
       "operator": {
         "equals": "等しい",
@@ -5468,9 +5472,6 @@
     "dashboard-links-menu": {
       "aria-label-dashboard-name": "{{dashboardName}}ダッシュボード",
       "label-no-dashboards-found": "ダッシュボードが見つかりませんでした"
-    },
-    "dashboard-loading": {
-      "cancel-loading-dashboard": "ダッシュボードの読み込みをキャンセル"
     },
     "dashboard-page-error": {
       "back-to-dashboards": "",
@@ -13524,6 +13525,9 @@
       "request-failed": "",
       "resource-not-found": "リソースが見つかりません。URLまたはリポジトリを確認してください。"
     },
+    "import": {
+      "error": ""
+    },
     "instance-sync-deprecation": {
       "message": "現在インスタンス同期は完全にはサポートされておらず、ライブラリパネルとアラートが正常に動作しません。ライブラリパネルとアラートを使用するには、リポジトリの接続を解除し、代わりにフォルダ同期を使用して再接続します。",
       "title": "インスタンス同期は完全にはサポートされていません"
@@ -13802,7 +13806,8 @@
     "sync-job": {
       "error-no-job-id": "ジョブを開始できませんでした",
       "error-no-repository-name": "リポジトリ名が指定されていません",
-      "error-starting-job": "ジョブ開始時のエラー"
+      "error-starting-job": "ジョブ開始時のエラー",
+      "migrate-default-message": ""
     },
     "sync-repository": {
       "error-pulling-resources": "リソース取得時のエラー",
